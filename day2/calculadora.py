@@ -4,11 +4,12 @@ def soma(number1, number2):
 def mutiplicação(number1, number2):
     return number1 * number2
 
-def divisão(number1, number2):
+    
+def divisao(number1, number2):
     if number2 != 0:
         return number1 / number2
     else:
-        print("Não existe operação por zero!")
+        return "Erro! Divisão por zero não é permitida."
 
 def subtração(number1, number2):
     return number1 - number2 
@@ -32,10 +33,7 @@ while True:
         result = mutiplicação(number1, number2)
 
     elif operation == "divisão":
-        if number2 != 0:
-            result = divisão(number1, number2)
-        else:
-            print("Não existe operação de divisão por zero!")
+        result = divisao(number1, number2)
 
     elif operation == "subtração":
         result = subtração(number1, number2)
@@ -43,5 +41,5 @@ while True:
     else:
         print("Operação inválida!")
 
-    print(f"A operação de {operation} dos números {number1} e {number2} é igual {result}")
+    print(f"A operação de {operation} dos números {number1} e {number2} é igual a {result}")
     print("-" * 50)
