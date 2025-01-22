@@ -2,4 +2,4 @@
 
 - [X] Dia 1 - Olá mundo em python
 - [X] Dia 2 - Calculadora
-- [ ] Dia 3 - 
+- [X] Dia 3 - Verificação de par ou ímpar
