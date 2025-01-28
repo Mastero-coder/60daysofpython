@@ -6,3 +6,5 @@
 - [X] Dia 4 - Laço de repetição
 - [X] Dia 5 - Função que retorna o quadrado de um número
 - [X] Dia 6 - Lista de frutas
+- [X] Dia 7 - Dicionário de aluno
+- [X] Dia 8 - 
